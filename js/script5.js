@@ -1,3 +1,3 @@
-const a = Number(prompt("введите номер карты:"));
-console.log(a.Number.slice(0, 7));
-console.log(a.replace("hidden", "*"));
+let cardNum = prompt("введите номер карты:");
+number = cardNum.replace(cardNum.slice(0,-4),"************");
+alert("номер карты" + number);
